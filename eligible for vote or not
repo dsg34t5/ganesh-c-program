@@ -8,8 +8,9 @@ int main()
 {
 	if(n>=18)
 	cout<<"eligible for vote";
-	else
+	else if
 	cout<<"not eligble for vote";
+	cout<<(18-n)<<"years if left for voting=";
     }
 	return 0;
 }
