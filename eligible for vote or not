@@ -1,0 +1,15 @@
+#include<iostrem>
+using namespace std;
+int main()
+{
+	int n;
+	cout<<"enter the age:";
+	cin>>n;
+{
+	if(n>=18)
+	cout<<"eligible for vote";
+	else
+	cout<<"not eligble for vote";
+    }
+	return 0;
+}
