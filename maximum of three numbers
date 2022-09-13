@@ -11,7 +11,17 @@ int main()
         cout<<"Largest number:"<<n2;
     if(n3>=n1&&n3>=n2)
         cout<<"Largest number:"<<n3;
-    if(n1<0,n2<0,n3<0)
+    if(n1<0)
         cout<<"INVALID input";
+    if(n2<0)
+        cout<<"INVALID INPUT";
+    if(n3<0)
+        cout<<"invalid input";
+    if(n1==?)
+        cout<<"invalid input";
+    if(n2==?)
+        cout<<"invalid input";
+    if(n3==?)
+        cout<<"invalid input";
     return 0;
 }
