@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int num1, num2, num3, num4, num5;
+	int positive, negative;
+	cout << "Please enter 5 whole numbers: " << endl;
+	cin >> num1;
+	cin >> num2;
+	cin >> num3;
+	cin >> num4;
+	cin >> num5; 
+	if (num1 > 0)
+	{
+		num1 = positive;
+	}
+	else
+	{
+		num1 = negative;
+	}
+	if (num2 > 0)
+	{
+		num2 = positive;
+	}
+	else
+	{
+		num2 = negative;
+	}
+	if (num3 > 0)
+	{
+		num3 = positive;
+	}
+	else
+	{
+		num3 = negative;
+	}
+	if (num4 > 0)
+	{
+		num4 = positive;
+	}
+	else
+	{
+		num4 = negative;
+	}
+	if (num5 > 0)
+	{
+		num5 = positive;
+	}
+	else
+	{
+		num5 = negative;
+	}
+	int sum;
+	sum = (num1 + num2 + num3 + num4 + num5);
+	int average;
+	average = (num1 + num2 + num3 + num4 + num5) / (5);
+	cout << "The sum of all five numbers is " << sum << "." << endl;
+	cout << "The sum of all the "  "positive numnbers is " << endl;
+	cout << "The sum of the " "negative numbers is " << endl;
+	cout << "The average of all five numbers is " << average << "." << endl;
+	cout << "The avergae of the " "positive numbers is " << endl;
+	cout << "The average of the " "negative numbers is " << endl;
+	return 0;
+}
