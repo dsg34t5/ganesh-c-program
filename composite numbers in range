@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int fact (int n) 
+{
+   if (n == 0)
+      return 1;
+   return n * fact(n-1);
+}
+void showRange(int n)
+{
+   int a = fact(n + 2) + 2;
+   int b = a + n - 1;
+   cout << "[" << a << ", " << b << "]";
+}
+int main() 
+{
+   int n = 3 ;
+   showRange(n);
+}
