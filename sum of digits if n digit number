@@ -1,0 +1,18 @@
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+int a,sum=0,m,arr[50];    
+cout<<"Enter the array limit: ";    
+cin>>arr[50];   
+cout<<"enter the number:";
+cin>>a;
+while(a>0)  
+{    
+m=a%10;    
+sum=sum+m;    
+a=a/10;    
+}   
+cout<<"Sum is= "<<sum<<endl;  
+return 0;  
+}
